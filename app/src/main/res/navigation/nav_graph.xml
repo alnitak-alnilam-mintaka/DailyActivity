@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/DailyActivityFragment">
+
+    <fragment
+        android:id="@+id/DailyActivityFragment"
+        android:name="com.polinasmogi.dailyactivity.ui.dailyactivity.DailyActivityFragment"
+        android:label="Daily Activity"
+        tools:layout="@layout/fragment_daily_activity">
+        <action
+            android:id="@+id/action_DailyActivityFragment_to_FirstFragment"
+            app:destination="@id/TimelineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TimelineFragment"
+        android:name="com.polinasmogi.dailyactivity.ui.timeline.TimeLineFragment"
+        android:label="Timeline"
+        tools:layout="@layout/fragment_timeline">
+    </fragment>
+
+</navigation>

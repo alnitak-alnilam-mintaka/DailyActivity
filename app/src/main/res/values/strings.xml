@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Daily Activity</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="daily_activity_title">Daily Activity</string>
+    <string name="daily_goal_title">Daily Goal</string>
+    <string name="daily_goal_text">Be active. Be healthy. Set goals.</string>
+    <string name="weekly_progress_title">Weekly progress</string>
+    <string name="set_realistic_goals_text">Set realistic goals</string>
+    <string name="timeline_button_title">Timeline</string>
+    <string name="daily_goal_indicator_text">Daily goal</string>
+    <string name="activity_indicator_text">Activity</string>
+    <string name="steps_title">Steps:</string>
+</resources>
